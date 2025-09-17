@@ -31,3 +31,5 @@ print("Accuracy: ", accuracy_score(y_test, y_pred))
 
 # Coefficients: positive = positive correlation, negative = negative correlation
 print(f"Feature 1 (Vict Age) coefficient: {model.coef_[0, 0]} Feature 2 (Vict Sex) coefficient: {model.coef_[0, 1]}")
+
+# In this data set, there is no meaningful correlation between a victim's age and sex with the crime committed.
